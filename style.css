@@ -12,13 +12,13 @@ html {
 body {
   color: #2e1065;
   background-color: #f5f3ff;
+  line-height: 1.5;
 }
 
 header {
   position: sticky;
   top: 0;
   background-color: #2e1065;
-  margin-bottom: 50px;
 }
 
 nav {
@@ -26,6 +26,11 @@ nav {
   display: flex;
   justify-content: end;
   align-items: center;
+}
+
+h1 {
+  padding: 25px 0 25px 0;
+  background: linear-gradient(332deg, #f5f3ff 48%, #986ee6 48.5%, #a17ce5 50%);
 }
 
 li {
