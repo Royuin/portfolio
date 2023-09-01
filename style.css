@@ -38,6 +38,7 @@ nav {
 h1 {
   padding: 25px 0 25px 5%;
   background: linear-gradient(332deg, #f5f3ff 48%, #986ee6 48.5%, #a17ce5 50%);
+  font-size: clamp(32px, 2.6vw, 40px);
 }
 
 li {
@@ -59,6 +60,10 @@ li {
 .nav-list > li > a:hover,
 .nav-list > li > a:focus {
   border-bottom: 2px solid #f5f3ff;
+}
+
+p {
+  font-size: clamp(16px, 2vw, 20px);
 }
 
 .skill-list {
@@ -116,6 +121,7 @@ h2 {
   margin: 0 5% 3% 5%;
   border-bottom: 3px solid #2e1065;
   text-align: center;
+  font-size: clamp(21px, 2.6vw, 26px);
 }
 
 #projects-section > p,
