@@ -9,7 +9,13 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'roboto';
+  src: url(/assets/Roboto-Regular.ttf);
+}
+
 body {
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
   color: #2e1065;
   background-color: #f5f3ff;
   line-height: 1.5;
