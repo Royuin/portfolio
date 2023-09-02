@@ -71,6 +71,10 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   justify-content: center;
   margin: 0 5% 0 5%;
+  padding: 1em 0 1em 0;
+  border-radius: 5px;
+  background-color: #2e1065;
+  color: #f5f3ff;
 }
 
 .skill-icon {
@@ -126,7 +130,7 @@ h2 {
 
 #projects-section > p,
 #about-section > p {
-  margin: 0 10% 5% 10%;
+  margin: 0 10% 3% 10%;
 }
 
 #contact-section {
