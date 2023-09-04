@@ -137,6 +137,11 @@ h3 {
 
 .contact-icon {
   width: 35px;
+  transition: 0.5s transform;
+}
+
+.contact-icon:hover {
+  transform: scale(1.5);
 }
 
 section {
@@ -163,6 +168,6 @@ h2 {
   margin: 0 20% 0.5rem 20%;
 }
 
-#contact-section > img:first-of-type {
-  margin-left: 20%;
+#contact-section > a:first-of-type {
+  margin: 0 15px 0 20%;
 }
