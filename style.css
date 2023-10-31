@@ -187,3 +187,13 @@ h2 {
 #contact-section > a:first-of-type {
   margin: 10px 15px 0 20%;
 }
+
+@media (max-width: 700px) {
+  nav {
+    height: 50px;
+  }
+  .nav-list > li > a {
+    font-size: 17px;
+    justify-content: center;
+  }
+}
